@@ -17,8 +17,12 @@ const eslintConfig = [
       ".next/**",
       "out/**",
       "build/**",
-      "next-env.d.ts",
+      "next-env.d.ts"
     ],
+    rules: {
+      "import/no-default-export": "off",
+      "import/prefer-default-export": "off"
+    }
   },
 ];
 
