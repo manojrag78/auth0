@@ -1,4 +1,4 @@
-import { getOpenApiUser } from "../actions";
+import { getOpenApiUser } from "../api/actions";
 
 export default async function Page() {
   const user = await getOpenApiUser();
